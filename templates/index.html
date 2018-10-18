@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Data Science Assignemnt</title>
+		
+		
+	</head>
+	<body class="fixed-sn black-skin">
+		{% include 'nav.html' %}
+		<div id="machine_post">
+			<form method="POST" action="/"/>
+			  Feathers:
+			  <input name="Feathers" type="text" placeholder="1 or 0">
+			  <br>
+			  Eggs:
+			  <input type="text" name="Eggs" placeholder="1 or 0">
+			  <br>
+			  Milk:
+			  <input type="text" name="Milk" placeholder="1 or 0">
+			  <br>
+			  Airborne:
+			  <input type="text" name="Airborne" placeholder="1 or 0">
+			  <br>
+			  Aquatic:
+			  <input type="text" name="Aquatic" placeholder="1 or 0">
+			  <br>
+			  Predator:
+			  <input type="text" name="Predator" placeholder="1 or 0">
+			  <br>
+			  Toothed:
+			  <input type="text" name="Toothed" placeholder="1 or 0">
+			  <br>
+			  Backbone:
+			  <input type="text" name="Backbone" placeholder="1 or 0">
+			  <br>
+			  Venomous:
+			  <input type="text" name="Venomous" placeholder="1 or 0">
+			  <br>
+			  Legs:
+			  <input type="text" name="Legs" placeholder="1 or 0">
+			  <br>
+			  Tail:
+			  <input type="text" name="Tail" placeholder="1 or 0">
+			  <br><br>
+			  Enter the Category:
+			  <input type="text" name="Category" placeholder="Enter 1 to 7">
+			  <br>
+			  <input type="submit" value="Submit">
+			</form> 
+		</div>
+		
+		&nbsp; &nbsp; &nbsp; <b>Value Return : {{ tool_return }}</b>
+		<p>Your name is {{name}}</p><br>
+		<p>Over all accuracy of the testing is: {{accuracy}}<br><br>
+		<p>Your Test Label is: {{check_label}}</p>
+		
+		<br><br><br>
+              
+
+	</body>
+	
+</html>
